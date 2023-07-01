@@ -1,0 +1,15 @@
+
+*.idb
+*.pdb
+*.lastbuildstate
+*.tlog
+*.ipch
+*.opendb
+*.db-wal
+*.db-shm
+*.db
+.vs/AbstractionHW/v17/.suo
+*.vsidx
+*.lock
+*.testlog
+*.manifest

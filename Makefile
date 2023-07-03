@@ -1,11 +1,11 @@
 all:
-	g++ -std=c++17 UnitTestHW.h -o UnitTestHW
-	g++ -std=c++17 UnitTestHW.cpp -o UnitTestHW
-	g++ -std=c++17 UnitTestHWTest.cpp -o UnitTestHWTest
+	g++ -std=c++17 AbstractMoving.h -o AbstractionHW
+	g++ -std=c++17 AbstractMoving.cpp -o AbstractionHW
+	g++ -std=c++17 Test/AbstractionTest.cpp -o AbstractionHWTest
 
 test:
-	chmod +x UnitTestHW
-	./UnitTestHWTest
+	chmod +x AbstractionHW
+	./Test/AbstractionHWTest
 
 clean:
-	$(RM) UnitTestHW UnitTestHWTest
+	$(RM) AbstractionHW AbstractionHWTest

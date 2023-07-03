@@ -13,3 +13,7 @@
 *.lock
 *.testlog
 *.manifest
+*.log
+*.recipe
+Test/x64/Debug/AbstractionTest.vcxproj.FileListAbsolute.txt
+*.log

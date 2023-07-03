@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include "AbstractMoving.h"
 
 int main()
 {
